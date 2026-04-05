@@ -1,0 +1,87 @@
+const products = [
+  {
+    name: "Airpods Wireless Bluetooth Headphones",
+    image: "/images/airpods.jpg",
+    description:
+      "Bluetooth technology lets you connect wirelessly with high-quality sound and built-in microphone.",
+    brand: "Apple",
+    category: "Electronics",
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: "Alexa Voice Assistant Speaker",
+    image: "/images/alexa.jpg",
+    description:
+      "Smart speaker with voice control, music streaming, and smart home integration.",
+    brand: "Amazon",
+    category: "Electronics",
+    price: 59.99,
+    countInStock: 8,
+    rating: 4.3,
+    numReviews: 18,
+  },
+  {
+    name: "DSLR Camera Pro",
+    image: "/images/camera.jpg",
+    description:
+      "Capture stunning photos and videos with high resolution and professional features.",
+    brand: "Canon",
+    category: "Electronics",
+    price: 499.99,
+    countInStock: 5,
+    rating: 4.7,
+    numReviews: 25,
+  },
+  {
+    name: "Wireless Mouse",
+    image: "/images/mouse.jpg",
+    description:
+      "Ergonomic wireless mouse with long battery life and smooth tracking.",
+    brand: "Logitech",
+    category: "Accessories",
+    price: 19.99,
+    countInStock: 20,
+    rating: 4.2,
+    numReviews: 10,
+  },
+  {
+    name: "Smartphone X",
+    image: "/images/phone.jpg",
+    description:
+      "Latest smartphone with powerful processor, great camera, and long battery life.",
+    brand: "Samsung",
+    category: "Electronics",
+    price: 699.99,
+    countInStock: 15,
+    rating: 4.6,
+    numReviews: 30,
+  },
+  {
+    name: "PlayStation Gaming Console",
+    image: "/images/playstation.jpg",
+    description:
+      "Next-gen gaming console with immersive graphics and lightning-fast performance.",
+    brand: "Sony",
+    category: "Gaming",
+    price: 499.99,
+    countInStock: 6,
+    rating: 4.8,
+    numReviews: 40,
+  },
+  {
+    name: "Sample Product",
+    image: "/images/sample.jpg",
+    description: "This is a sample product for testing UI and functionality.",
+    brand: "Generic",
+    category: "General",
+    price: 29.99,
+    countInStock: 0,
+    rating: 3.9,
+    numReviews: 5,
+  },
+];
+
+export default products;
